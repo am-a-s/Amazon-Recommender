@@ -34,8 +34,6 @@ The repository is organized for clarity and maintainability:
 
 * `.json` and `.csv` files: A collection of scraped product data and potentially processed datasets, such as `Fender Squier.json`, `laptop.json`, `nmve.csv`, and `electric guitar fender_scraped_data.csv`.
 
-* `Groq_api.py`: Suggests integration with the Groq API, potentially for advanced language processing or high-performance model inference.
-
 * `cuda_test.py`: A script to verify CUDA compatibility, indicating support for GPU-accelerated tasks like model training or inference.
 
 * `fast_scraper.py`: An optimized or alternative script for faster data scraping.
@@ -69,10 +67,6 @@ Follow these steps to set up and run the Amazon Product Recommender System on yo
 
     ```bash
     pip install requests beautifulsoup4 pandas numpy scikit-learn flask uvicorn
-    # If the Groq_api.py is actively used:
-    # pip install groq
-    # If using TensorFlow/PyTorch for the model (and CUDA is available):
-    # pip install tensorflow # or pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu118](https://download.pytorch.org/whl/cu118)
     ```
 
     *Note: The exact dependencies and their versions are best confirmed by inspecting the `import` statements within `api.py`, `amazon_scraper.py`, `Model.py`, and `prod_recommender.py`.*
