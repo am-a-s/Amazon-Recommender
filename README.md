@@ -85,3 +85,46 @@ If you need to collect new product data, you can run the scraping script:
 
 ```bash
 python amazon_scraper.py
+```
+### 2. Running the Recommendation API
+
+The `api.py` script is designed to serve your recommendation engine. Depending on its implementation (e.g., Flask or FastAPI), you'll run it as follows:
+
+* **For a Flask application (common for simple APIs):**
+
+    ```bash
+    python api.py
+    ```
+
+* **For a FastAPI application (often used for modern, high-performance APIs):**
+
+    ```bash
+    uvicorn api:app --reload --host 0.0.0.0 --port 8000
+    ```
+    *(Adjust `api:app` if your FastAPI application object is named differently within `api.py`.)*
+
+Once the API is running, you can interact with its endpoints (e.g., `/recommend`, `/predict`) using tools like Postman, `curl`, or by integrating it into your own web applications. Refer to the `api.py` source code for detailed endpoint definitions, expected request payloads, and response formats.
+
+## Contributing
+
+We welcome contributions to enhance this Amazon Product Recommender System! If you're interested in improving the project, please follow these guidelines:
+
+1.  **Fork** the repository on GitHub.
+2.  **Create a new branch** for your feature or bug fix:
+    `git checkout -b feature/your-awesome-feature`
+3.  **Implement your changes.**
+4.  **Commit your work** with a clear and concise message:
+    `git commit -m "Feat: Add a new recommendation algorithm"`
+5.  **Push** your changes to your forked repository:
+    `git push origin feature/your-awesome-feature`
+6.  **Open a Pull Request** to the `main` branch of the original repository.
+
+## License
+
+This project is open-source and available under the **MIT License**. This means you are free to use, modify, and distribute the code for both commercial and non-commercial purposes, provided you include the original copyright and license notice in any copy of the software.
+
+For more details, please see the `LICENSE` file in the repository (if present, or create one with the MIT license text).
+
+## Contact
+
+If you have any questions, suggestions, or need assistance, please feel free to reach out to the repository owner directly via GitHub: [am-a-s](https://github.com/am-a-s).
