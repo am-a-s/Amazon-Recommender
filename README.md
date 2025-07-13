@@ -19,6 +19,7 @@ This system is engineered with distinct components to handle the full recommenda
 ## Getting Started
 
 Follow these steps to set up and run the Amazon Product Recommender System on your local machine.
+![FastAPI Recommendation Endpoint](image.png)
 
 ### Installation
 
