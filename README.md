@@ -1,5 +1,5 @@
 # Amazon Product Recommender System
-
+![FastAPI Recommendation Endpoint](image.png)
 ## Overview
 
 Welcome to the Amazon Product Recommender System! This project provides a robust framework for building and deploying a product recommendation engine. Designed to offer personalized or popular product suggestions, this system integrates data scraping capabilities, a sophisticated recommendation model, and a user-friendly web API for seamless interaction. It's built to help you understand and implement core concepts of modern recommender systems.
@@ -19,7 +19,6 @@ This system is engineered with distinct components to handle the full recommenda
 ## Getting Started
 
 Follow these steps to set up and run the Amazon Product Recommender System on your local machine.
-![FastAPI Recommendation Endpoint](image.png)
 
 ### Installation
 
