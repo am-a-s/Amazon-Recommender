@@ -79,7 +79,7 @@ Follow these steps to set up and run the Amazon Product Recommender System on yo
 
 ### Usage
 
-#### 1. Data Scraping (Optional, if needed for fresh data)
+#### 1. Data Scraping (Optional, if needed for see the data collection)
 
 If you need to collect new product data, you can run the scraping script:
 
