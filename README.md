@@ -16,28 +16,6 @@ This system is engineered with distinct components to handle the full recommenda
 
 * **Efficient Data Management:** With various `.json` and `.csv` files (e.g., `Fender Squier.json`, `laptop.json`, `nmve.csv`), the project demonstrates effective processing and storage of diverse product-related datasets.
 
-## Project Structure
-
-The repository is organized for clarity and maintainability:
-
-* `api.py`: The central script, responsible for exposing the recommendation functionalities via a web API.
-
-* `amazon_scraper.py`: Handles the extraction of product data from Amazon.
-
-* `Model.py`: Contains the foundational logic for the recommendation algorithm.
-
-* `prod_recommender.py`: A utility script likely used for orchestrating or refining the recommendation generation process.
-
-* `.venv/`: Your dedicated Python virtual environment, keeping dependencies isolated.
-
-* `__pycache__/`: Python's bytecode cache, automatically generated.
-
-* `.json` and `.csv` files: A collection of scraped product data and potentially processed datasets, such as `Fender Squier.json`, `laptop.json`, `nmve.csv`, and `electric guitar fender_scraped_data.csv`.
-
-* `cuda_test.py`: A script to verify CUDA compatibility, indicating support for GPU-accelerated tasks like model training or inference.
-
-* `fast_scraper.py`: An optimized or alternative script for faster data scraping.
-
 ## Getting Started
 
 Follow these steps to set up and run the Amazon Product Recommender System on your local machine.
