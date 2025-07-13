@@ -12,7 +12,7 @@ This system is engineered with distinct components to handle the full recommenda
 
 * **Intelligent Recommendation Model:** Driven by `Model.py` and `prod_recommender.py`, the system leverages machine learning to generate insightful product recommendations. Whether you're exploring collaborative filtering, content-based methods, or a hybrid approach, this core component is designed for flexibility.
 
-* **RESTful Recommendation API:** The `api.py` script serves as the main entry point, providing a clean and accessible API. This allows other applications, frontends, or services to easily request and receive product suggestions.
+* **Recommendation API:** The `api.py` script serves as the main entry point, providing a clean and accessible API. This allows other applications, frontends, or services to easily request and receive product suggestions.
 
 * **Efficient Data Management:** With various `.json` and `.csv` files (e.g., `Fender Squier.json`, `laptop.json`, `nmve.csv`), the project demonstrates effective processing and storage of diverse product-related datasets.
 
